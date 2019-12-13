@@ -14,7 +14,7 @@ $ npm install yuv-buffer
 ## Usage
 - javascript
 ```js
-var YUVBuffer = require("yuv-buffer.js");
+const YUVBuffer = require("yuv-buffer");
 
 // HDTV 1080p:
 var format = {
