@@ -1,0 +1,18 @@
+---
+kind: pipeline
+type: kubernetes
+name: learn-drone-ci
+
+steps:
+- name: lint
+  image: node
+  commands:
+  - npm install
+  - npm lint
+
+steps:
+- name: test
+  image: node
+  commands:
+  - npm install
+  - npm test
