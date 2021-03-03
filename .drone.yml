@@ -1,6 +1,5 @@
----
 kind: pipeline
-type: kubernetes
+type: docker
 name: learn-drone-ci
 
 steps:
